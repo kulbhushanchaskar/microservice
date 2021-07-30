@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: CONFIGSERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kulbhushanchaskar/config_server
+          cloneOnStart: true
+server:
+  port: 9196
+  
+management:
+  security:
+    enabled: false
+ 
+eureka:
+  instance:
+     prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+    instance:
+      hostname: localhost
