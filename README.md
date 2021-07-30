@@ -5,7 +5,7 @@
 4. servicereg: This microservice is the service registry in this example I have taken Eureka as a service registry. it is nothing but the EurekaServer where all the microservice list themselves with this service registry
 5. springapigateway: This microservice acts as a single point of contact for rest of the world, it also takes care of the fault talaurance/circuit breaker using hystrix 
 
-To run the entire this entire ecosystem of microservices, just run each individual microservice as a java application.
+To run this entire ecosystem of microservices, just run each individual microservice as a java application.
 
 Eureka server url : http://localhost:8761/
 
