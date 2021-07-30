@@ -8,6 +8,7 @@
 To run the entire this entire ecosystem of microservices, just run each individual microservice as a java application.
 
 Eureka server url : http://localhost:8761/
+
 To execute microservice flow-> 
  a. post url: http://localhost:8989/order/bookorder
  b. url body
